@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import axios from "./axios";
-import requests from "./request";
+import axios from "./axios"; 
+import requests from "./request";//Contains the relative parameters or paths
 import "./Banner.css";
 const Banner = () => {
   const [movie, setMovie] = useState([]);

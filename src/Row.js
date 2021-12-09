@@ -58,7 +58,7 @@ const Row = (props) => {
                 props.isLargeRow && "row__posterLarge"
               }`}
               src={`${base_Url}${
-                props.isLargeRow ? movie.poster_path : movie.backdrop_path
+                props.isLargeRow ? movie?.poster_path : movie?.backdrop_path
               }`}
               alt={movie.name}
             />
